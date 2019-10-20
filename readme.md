@@ -1,16 +1,15 @@
 # Generate random string
 
-# Install 
-<code>npm i simple-rand-str</code>
-# Use 
-<code> 
-let r = require('simple-rand-str');
+## Install
 
-</code>
-<code>
-r.generate();
-</code>
-Or 
-<code>
-  r.generate(10);
-</code>
+    npm i simple-rand-str
+    
+
+## Use
+
+    let r = require('simple-rand-str');
+    r.generate();
+You can set the string length
+
+    r.generate(10);
+
